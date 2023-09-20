@@ -1,0 +1,30 @@
+.main {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main__title {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid aliceblue;
+    border-radius: 25px;
+    color: aliceblue;
+    font-family: var(--font-family);
+    font-size: 1.4rem;
+    height: 50px;
+    padding: 0 20px;
+    width: 70%;
+    outline: none;
+}
+
+::placeholder {
+    color: aliceblue;
+}

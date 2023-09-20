@@ -1,0 +1,95 @@
+@import "common.css";
+.header {
+    /*green*/
+    /*background-color: #21C08B;*/
+    /*purple*/
+    background-color: var(--color-green);
+    width: 100%;
+    height: 80px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-green);
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: var(--font-size-title);
+}
+
+.header__icon {
+    display: flex;
+    font-weight: bolder;
+    font-size: var(--font-size-icon);
+    color: aliceblue;
+    flex: 1 1;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 100%;
+    gap: 10px;
+}
+
+.header__icon__img {
+    /*width: 250px;*/
+    width: 80px;
+    height: 80px;
+}
+
+.header__menu {
+    margin-right: 30px;
+    font-size: 1rem;
+}
+
+.header__menu--icon {
+    width: 40px;
+    height: 40px;
+}
+
+.header__menu--p {
+    font-size: 1rem;
+    /*font-weight: bolder;*/
+    color: aliceblue;
+}
+
+.header__menu ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+
+    width: 100px;
+    text-align: right;
+    margin: 0 0 0 -14px;
+}
+
+.header__menu:hover ul, ul:hover {
+    display: block;
+}
+
+.header__menu li {
+    margin: 10px 0;
+}
+
+.header__menu li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header__menu li a:hover {
+    text-decoration: underline;
+}
+
+.header__menu--profile {
+    margin-right: 30px;
+    /*width: 40px;*/
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
